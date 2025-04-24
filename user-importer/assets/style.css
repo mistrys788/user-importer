@@ -1,0 +1,43 @@
+#user-importer-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 6px;
+    background: #fff;
+}
+#fileInfo {
+    margin-top: 10px;
+    font-weight: bold;
+}
+#progressContainer {
+    margin-top: 20px;
+}
+#progressContainer p {
+    margin: 4px 0;
+}
+#progressContainer #importSpinner {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+.inner-boxpc{
+	display: flex; 
+	justify-content: space-between; 
+	align-items: center;
+}
+#importProgress {
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+}
+.cust-tab a.nav-tab {
+    margin: 0px;
+}
+.cust-tab a.nav-tab.active {
+    background: #fff;
+    margin: 0px;
+}
+h2.nav-tab-wrapper.cust-tab {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
